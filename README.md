@@ -4,7 +4,7 @@ parent:
 -->
 
 <div align="center">
-  <h1> Cosmos SDK </h1>
+  <h1> Cosmos SDK - TR </h1>
 </div>
 
 ![banner](docs/cosmos-sdk-image.jpg)
@@ -37,45 +37,45 @@ parent:
     <img alt="Lint Satus" src="https://github.com/cosmos/cosmos-sdk/workflows/Lint/badge.svg" />
 </div>
 
-The Cosmos SDK is a framework for building blockchain applications. [Tendermint Core (BFT Consensus)](https://github.com/tendermint/tendermint) and the Cosmos SDK are written in the Golang programming language. Cosmos SDK is used to build [Gaia](https://github.com/cosmos/gaia), the first implementation of the Cosmos Hub.
+Cosmos SDK, blok zinciri uygulamaları oluşturmak için bir çerçevedir. Tendermint Core (BFT Consensus) ve Cosmos SDK, Golang programlama dilinde yazılmıştır. Cosmos SDK, Cosmos Hub'ın ilk uygulaması olan Gaia'yı oluşturmak için kullanılır.
 
-**WARNING**: The Cosmos SDK has mostly stabilized, but we are still making some
-breaking changes.
+UYARI: Cosmos SDK'sı büyük ölçüde stabilize oldu, ancak hala bazı önemli değişiklikler yapıyoruz.
 
-**Note**: Requires [Go 1.18+](https://go.dev/dl)
+Not: Go 1.18+ gerektirir
 
-## Quick Start
+## Hemen Başla!
 
-To learn how the Cosmos SDK works from a high-level perspective, see the Cosmos SDK [High-Level Intro](./docs/intro/overview.md).
+Cosmos SDK'nın üst düzey bir perspektiften nasıl çalıştığını öğrenmek için Cosmos SDK'ya bakın [High-Level Intro](./docs/intro/overview.md).
 
-If you want to get started quickly and learn how to build on top of Cosmos SDK, visit [Cosmos SDK Tutorials](https://tutorials.cosmos.network). You can also fork the tutorial's repository to get started building your own Cosmos SDK application.
+Hızlı bir şekilde başlamak ve Cosmos SDK'nın üzerine nasıl inşa edileceğini öğrenmek istiyorsanız, adresini ziyaret edin. [Cosmos SDK Tutorials](https://tutorials.cosmos.network). Kendi Cosmos SDK uygulamanızı oluşturmaya başlamak için öğreticinin kaynağını da forklayabilirsiniz.
 
-For more information, see the [Cosmos SDK Documentation](./docs/).
 
-## Contributing
+Daha fazla bilgi için bkz. [Cosmos SDK Documentation](./docs/).
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for details how to contribute and participate in our [dev calls](./CONTRIBUTING.md#teams-dev-calls).
-If you want to follow the updates or learn more about the latest design then join our [Discord](https://discord.com/invite/cosmosnetwork).
+## Dağıtım
 
-## Tools and Frameworks
+bknz. [CONTRIBUTING.md](./CONTRIBUTING.md) nasıl katkıda bulunacağınız ve katılacağınız ayrıntılar için bknz. [dev calls](./CONTRIBUTING.md#teams-dev-calls).
 
-The Cosmos ecosystem is vast. We will only make a few notable mentions here.
+Güncellemeleri takip etmek veya en son tasarım hakkında daha fazla bilgi edinmek istiyorsanız, bize katılın. [Discord](https://discord.com/invite/cosmosnetwork).
 
-+ [Tools](https://v1.cosmos.network/tools): notable frameworks and modules.
-+ [CosmJS](https://github.com/cosmos/cosmjs): the Swiss Army knife to power JavaScript based client solutions.
+## Araçlar and Frameworks
+
+Cosmos ekosistemi çok geniştir. Burada sadece dikkate değer birkaç söz edeceğiz.
+
++ [Tools](https://v1.cosmos.network/tools): dikkate değer Frameworks ve modüller.
++ [CosmJS](https://github.com/cosmos/cosmjs): JavaScript tabanlı istemci çözümlerini güçlendirmek için İsviçre Çakısı.
 
 ### Cosmos Hub Mainnet
 
-The Cosmos Hub application, `gaia`, has moved to its own [cosmos/gaia repository](https://github.com/cosmos/gaia). Go there to join the Cosmos Hub mainnet and more.
+Cosmos Hub uygulaması 'gaia' kendi kendine taşındı [cosmos/gaia repository](https://github.com/cosmos/gaia). Cosmos Hub ana ağına ve daha fazlasına katılmak için oraya gidin.
 
 ### Inter-Blockchain Communication (IBC)
 
-The IBC module for the Cosmos SDK has moved to its own [cosmos/ibc-go repository](https://github.com/cosmos/ibc-go). Go there to build and integrate with the IBC module.
-
+Cosmos SDK için IBC modülü kendi modülüne taşındı [cosmos/ibc-go repository](https://github.com/cosmos/ibc-go). IBC modülünü oluşturmak ve entegre etmek için oraya gidin.
 ### Ignite CLI
 
-Ignite CLI is the all-in-one platform to build, launch, and maintain any crypto application on a sovereign and secured blockchain. If you are building a new app or a new module, use [Ignite CLI](https://github.com/ignite-hq/cli) to get started and speed up development.
+Ignite CLI, bağımsız ve güvenli bir blok zincirinde herhangi bir kripto uygulamasını oluşturmak, başlatmak ve sürdürmek için hepsi bir arada platformdur. Yeni bir uygulama veya yeni bir modül oluşturuyorsanız, şunu kullanın:[Ignite CLI](https://github.com/ignite-hq/cli) başlamak ve gelişmeyi hızlandırmak için.
 
 ## Disambiguation
 
-This Cosmos SDK project is not related to the [React-Cosmos](https://github.com/react-cosmos/react-cosmos) project (yet). Many thanks to Evan Coury and Ovidiu (@skidding) for this Github organization name. As per our agreement, this disambiguation notice will stay here.
+Bu Cosmos SDK projesi ile ilgili değil [React-Cosmos](https://github.com/react-cosmos/react-cosmos) proje (henüz). Bu Github organizasyon adı için Evan Coury ve Ovidiu (@skidding)'e çok teşekkürler. Anlaşmamıza göre, bu anlam ayrımı bildirimi burada kalacak.
