@@ -4,7 +4,7 @@ parent:
 -->
 
 <div align="center">
-  <h1> Cosmos SDK - TR </h1>
+  <h1> Cosmos SDK - TR - Ruesandora0 tarafından çevrildi </h1>
 </div>
 
 ![banner](docs/cosmos-sdk-image.jpg)
